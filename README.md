@@ -1,4 +1,4 @@
-# Official Implementation of DeepSpeech Distances proposed in [*High Fidelity Speech Synthesis with Adversarial Networks*](https://arxiv.org/abs/1909.11646)
+# Authors' Implementation of DeepSpeech Distances proposed in [*High Fidelity Speech Synthesis with Adversarial Networks*](https://arxiv.org/abs/1909.11646)
 
 This repo provides a code for estimation of **DeepSpeech Distances**, new evaluation metrics for neural speech synthesis.
 
