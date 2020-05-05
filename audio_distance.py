@@ -62,7 +62,7 @@ class AudioDistance(object):
     mult = num_splits * self.batch_size
     if required_sample_size // mult < 1:
         raise ValueError(f"Too small sample size ({required_sample_size}) for "
-                         f"given batch size ({batch_size}) and number of "
+                         f"given batch size ({self.batch_size}) and number of "
                          f"splits ({num_splits}.")
     self.required_sample_size = (required_sample_size // mult) * mult
 
